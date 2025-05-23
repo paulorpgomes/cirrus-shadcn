@@ -25,7 +25,7 @@ export default function Navbar() {
       <div className="flex items-center">
         <Link href="/" className="flex items-center">
           <img 
-            src="/images/Logocirrus.png" 
+            src="/images/LogoCirrus.png" 
             alt="Cirrus Logo" 
             className="h-14 w-auto" 
           />
