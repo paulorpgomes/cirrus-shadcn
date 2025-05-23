@@ -10,11 +10,11 @@ export default function ProductsPage() {
       id: 1,
       name: "Karoo Chat",
       description:
-        "Nossa solução premium para empresas de grande porte. O Cirrus Pro oferece recursos avançados de gerenciamento, análise de dados em tempo real e suporte prioritário.",
-      image: "/placeholder.svg?height=300&width=500",
+        "Atendimento online com qualidade. Aventure-se pela nossa ferramenta e forneça um atendimento ágil, eficiente.",
+      image: "images/chaticon.png",
       features: [
-        "Análise avançada de dados",
-        "Suporte prioritário 24/7",
+        "100% Web",
+        "Dashboard dos atendimentos",
         "Integrações personalizadas",
         "Segurança de nível empresarial",
       ],
@@ -23,8 +23,8 @@ export default function ProductsPage() {
       id: 2,
       name: "Karoo Bot",
       description:
-        "Perfeito para pequenas empresas e startups. O Cirrus Lite oferece todas as funcionalidades essenciais a um preço acessível.",
-      image: "/placeholder.svg?height=300&width=500",
+        "Crie fluxos personalizados, integre o BOT ao WhatsApp e ofereça sempre o mais moderno aos seus clientes!",
+      image: "images/boticon.png",
       features: ["Funcionalidades essenciais", "Fácil de usar", "Suporte por email", "Atualizações regulares"],
     },
     {
@@ -42,7 +42,7 @@ export default function ProductsPage() {
     },
     {
       id: 4,
-      name: "Cirrus Enterprise",
+      name: "Karoo IA",
       description:
         "Solução completa para grandes corporações com necessidades específicas. Inclui implementação personalizada e treinamento da equipe.",
       image: "/placeholder.svg?height=300&width=500",
@@ -55,7 +55,7 @@ export default function ProductsPage() {
     },
     {
       id: 5,
-      name: "Cirrus Analytics",
+      name: "Backup",
       description:
         "Ferramenta de análise de dados avançada que transforma seus dados em insights acionáveis para tomada de decisões.",
       image: "/placeholder.svg?height=300&width=500",
@@ -68,7 +68,7 @@ export default function ProductsPage() {
     },
     {
       id: 6,
-      name: "Cirrus Mobile",
+      name: "Bunker",
       description:
         "Aplicativo móvel que permite acesso às principais funcionalidades do Cirrus em qualquer lugar, a qualquer momento.",
       image: "/placeholder.svg?height=300&width=500",
