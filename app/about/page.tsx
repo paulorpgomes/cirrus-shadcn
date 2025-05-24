@@ -57,7 +57,7 @@ export default function AboutPage() {
                 <div className="space-y-4 text-gray-600">
                   <p>
                     Você já parou pra pensar em como seria mais fácil se empresas e clientes se entendessem de forma
-                    rápida, leve e moderna? F oi com essa ideia na cabeça que nasceu o Cirrus, um time dentro da
+                    rápida, leve e moderna? Foi com essa ideia na cabeça que nasceu o Cirrus, um time dentro da
                     Alterdata com uma missão bem clara: criar soluções digitais em nuvem que realmente fazem a diferença
                     no dia a dia das empresas.
                   </p>

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Check, ArrowRight } from "lucide-react"
+import { ArrowLeft, Check, ArrowRight, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
@@ -14,54 +14,65 @@ const productsData = [
     longDescription:
       "O Karoo Chat é uma solução completa de atendimento multicanal, desenvolvida especialmente para empresas que desejam centralizar e profissionalizar o relacionamento com seus clientes. Integrando WhatsApp, Facebook, Telegram e outros canais em um só lugar, o Karoo Chat oferece atendimento simultâneo, histórico completo das conversas, relatórios detalhados e muito mais.",
     image: "/placeholder.svg?height=500&width=800",
-    features: [
-      "Atendimento centralizado via WhatsApp, Facebook, Telegram e outros canais",
-      "Histórico completo de conversas com busca rápida",
-      "Relatórios e dashboards personalizados",
-      "Transferência de atendimento entre setores",
-      "Avisos e notificações em tempo real",
-      "Sistema 100% web, sem necessidade de instalação",
-      "Integração com o Karoo Bot",
-      "Filas de atendimento configuráveis por equipe",
-    ],
-    specifications: {
-      Capacidade: "Ilimitada",
-      Usuários: "Ilimitados",
-      Armazenamento: "1TB por usuário",
-      Suporte: "24/7 prioritário",
-      Atualizações: "Automáticas",
-      Implementação: "Personalizada",
-      SLA: "99.99% de uptime garantido",
+    apiOfficial: {
+      pros: [
+        "Estabilidade na conexão",
+        "Garantia de entrega das mensagens",
+        "Segurança na conexão",
+        "Proteção para não ter o número bloqueado",
+      ],
+      cons: [
+        "Custo",
+        "Necessidade de ter um site em https, email comercial e facebook business",
+        "Para iniciar um atendimento, a empresa precisa esperar o cliente autorizar a conversa para iniciar o diálogo",
+        "Não é possível importar os contatos do número usado",
+        "O proativo tem cobrança extra por atendimento proativo",
+      ],
     },
+    apiWeb: {
+      pros: [
+        "Custo Zero",
+        "Não tem necessidade de ter um site em https, email comercial e facebook business",
+        "Atendimentos proativos permitem a empresa mandar uma mensagem ao cliente, sem a necessidade dele autorizar",
+        "Conseguimos importar os contatos que o cliente já conversou pelo WhatsApp",
+      ],
+      cons: [
+        "Bloqueio de número (Se o cliente tiver um volume alto de atendimento por dia ou se marcarem o número do cliente como SPAM",
+        "Instabilidade na conexão ao WhatsApp",
+        "Possível lentidão e perda de mensagens nas conversas",
+      ],
+    },
+    specifications: [
+      { type: "item", text: "Atendimento centralizado via WhatsApp, Facebook, Telegram e outros canais" },
+      { type: "item", text: "Histórico completo de conversas com busca rápida" },
+      { type: "item", text: "Relatórios e dashboards personalizados" },
+      { type: "item", text: "Transferência de atendimento entre setores" },
+      { type: "item", text: "Avisos e notificações em tempo real" },
+      { type: "item", text: "Sistema 100% web, sem necessidade de instalação" },
+      { type: "item", text: "Integração com o Karoo Bot" },
+      { type: "item", text: "Filas de atendimento configuráveis por equipe" },
+    ],
     relatedProducts: [3, 4, 5],
   },
   {
     id: 2,
     name: "Karoo Bot",
     description:
-      "Perfeito para pequenas empresas e startups. O Cirrus Lite oferece todas as funcionalidades essenciais a um preço acessível.",
+      "Ideal para empresas que buscam agilidade no atendimento. O Karoo Bot oferece automação inteligente, integração com múltiplos canais e uma interface simples, tudo isso com excelente custo-benefício.",
     longDescription:
-      "O Cirrus Lite foi desenvolvido pensando nas necessidades específicas de pequenas empresas e startups. Oferecemos todas as funcionalidades essenciais para o gerenciamento eficiente do seu negócio, sem a complexidade desnecessária. Com uma interface intuitiva e fácil de usar, você estará operacional em minutos, não em dias. O Cirrus Lite cresce com o seu negócio, permitindo uma fácil atualização para versões mais avançadas quando necessário.",
+      "O Karoo Bot é uma plataforma de automação de atendimento desenvolvida para facilitar a comunicação entre empresas e seus clientes. Com foco em agilidade e eficiência, ele permite a criação de chatbots inteligentes sem a necessidade de programação. A interface visual e intuitiva torna a construção de fluxos de conversa rápida e acessível, mesmo para quem nunca trabalhou com bots. O Karoo Bot integra-se facilmente a canais como WhatsApp, sites e sistemas Alterdata, oferecendo uma experiência de atendimento moderna, automatizada e personalizada. Ideal para negócios que desejam melhorar o suporte ao cliente e ganhar escala com simplicidade.",
     image: "/placeholder.svg?height=500&width=800",
-    features: [
-      "Todas as funcionalidades essenciais para pequenas empresas",
-      "Interface intuitiva e fácil de usar",
-      "Suporte por email com resposta em até 24 horas",
-      "Atualizações regulares com novos recursos",
-      "Segurança robusta para seus dados",
-      "Capacidade de expansão conforme seu negócio cresce",
-      "Tutoriais e documentação detalhada",
-      "Comunidade ativa de usuários",
+    specifications: [
+      { type: "title", text: "Requisitos do Sistema" },
+      { type: "item", text: "Conexão estável com a internet" },
+      { type: "item", text: "Navegador atualizado" },
+      { type: "item", text: "Mínimo 2GB de RAM" },
+      { type: "title", text: "Contas e Permissões" },
+      { type: "item", text: "Conta WhatsApp Business" },
+      { type: "item", text: "Permissões de administrador" },
+      { type: "title", text: "Manutenção" },
+      { type: "item", text: "Backup regular recomendado" },
     ],
-    specifications: {
-      Capacidade: "Até 10.000 registros",
-      Usuários: "Até 10 usuários",
-      Armazenamento: "100GB total",
-      Suporte: "Email (resposta em 24h)",
-      Atualizações: "Trimestrais",
-      Implementação: "Self-service com guias",
-      SLA: "99.9% de uptime",
-    },
     relatedProducts: [3, 6, 1],
   },
   {
@@ -72,25 +83,16 @@ const productsData = [
     longDescription:
       "O Cirrus Cloud foi projetado para a força de trabalho moderna e distribuída. Nossa solução baseada em nuvem permite que suas equipes acessem todos os recursos de qualquer lugar e em qualquer dispositivo. Com sincronização em tempo real, colaboração integrada e backup automático, o Cirrus Cloud garante que todos estejam sempre trabalhando com os dados mais atualizados. A segurança é nossa prioridade, com autenticação de dois fatores e criptografia avançada protegendo seus dados sensíveis.",
     image: "/placeholder.svg?height=500&width=800",
-    features: [
-      "Acesso seguro de qualquer dispositivo (desktop, tablet, smartphone)",
-      "Colaboração em tempo real entre membros da equipe",
-      "Backup automático de todos os dados",
-      "Sincronização offline para trabalhar sem internet",
-      "Controles de permissão granulares",
-      "Autenticação de dois fatores",
-      "Histórico de versões e recuperação de documentos",
-      "Notificações personalizáveis",
+    specifications: [
+      { type: "title", text: "Conectividade" },
+      { type: "item", text: "Conexão estável com a internet" },
+      { type: "item", text: "Navegador moderno" },
+      { type: "title", text: "Hardware" },
+      { type: "item", text: "Mínimo 4GB de RAM" },
+      { type: "item", text: "Espaço em disco disponível" },
+      { type: "title", text: "Segurança" },
+      { type: "item", text: "Permissões de rede" },
     ],
-    specifications: {
-      Capacidade: "Baseada no plano",
-      Usuários: "5-500 dependendo do plano",
-      Armazenamento: "500GB-5TB dependendo do plano",
-      Suporte: "Chat e email",
-      Atualizações: "Mensais",
-      Implementação: "Assistida",
-      SLA: "99.95% de uptime",
-    },
     relatedProducts: [6, 1, 2],
   },
   {
@@ -101,25 +103,16 @@ const productsData = [
     longDescription:
       "O Cirrus Enterprise é nossa solução mais robusta, projetada para grandes corporações com necessidades complexas e específicas. Oferecemos implementação totalmente personalizada, integração com seus sistemas existentes e treinamento abrangente para toda a sua equipe. Com o Cirrus Enterprise, você tem acesso a uma API completa para desenvolver integrações personalizadas e garantimos conformidade com todas as regulamentações relevantes para o seu setor. Nossa equipe dedicada de gerentes de conta trabalha diretamente com você para garantir o sucesso contínuo.",
     image: "/placeholder.svg?height=500&width=800",
-    features: [
-      "Implementação totalmente personalizada para suas necessidades específicas",
-      "Treinamento abrangente para toda a equipe",
-      "API completa para integrações personalizadas",
-      "Conformidade com GDPR, HIPAA, SOC 2 e outras regulamentações",
-      "Gerente de conta dedicado",
-      "Auditorias de segurança regulares",
-      "Recuperação de desastres avançada",
-      "Suporte técnico dedicado 24/7",
+    specifications: [
+      { type: "title", text: "Infraestrutura" },
+      { type: "item", text: "Infraestrutura dedicada" },
+      { type: "item", text: "Conexão de alta velocidade" },
+      { type: "title", text: "Recursos Humanos" },
+      { type: "item", text: "Equipe técnica qualificada" },
+      { type: "item", text: "Ambiente de desenvolvimento" },
+      { type: "title", text: "Segurança" },
+      { type: "item", text: "Políticas de segurança definidas" },
     ],
-    specifications: {
-      Capacidade: "Ilimitada",
-      Usuários: "Ilimitados",
-      Armazenamento: "Personalizado",
-      Suporte: "Dedicado 24/7",
-      Atualizações: "Controladas pelo cliente",
-      Implementação: "Totalmente personalizada",
-      SLA: "Personalizado até 99.999%",
-    },
     relatedProducts: [1, 5, 3],
   },
   {
@@ -130,25 +123,16 @@ const productsData = [
     longDescription:
       "O Cirrus Analytics é uma poderosa ferramenta de análise de dados que transforma informações brutas em insights acionáveis para sua empresa. Com dashboards personalizáveis, relatórios automatizados e previsões baseadas em IA, você pode tomar decisões informadas rapidamente. Nossa plataforma se integra facilmente com suas fontes de dados existentes e permite exportação em vários formatos. O Cirrus Analytics é ideal para equipes de marketing, vendas, operações e liderança que precisam entender tendências, identificar oportunidades e otimizar processos.",
     image: "/placeholder.svg?height=500&width=800",
-    features: [
-      "Dashboards personalizáveis com visualizações interativas",
-      "Relatórios automatizados enviados por email",
-      "Previsões e tendências baseadas em IA",
-      "Exportação de dados em múltiplos formatos (PDF, Excel, CSV)",
-      "Integração com múltiplas fontes de dados",
-      "Alertas personalizáveis baseados em métricas",
-      "Análise de coorte e segmentação",
-      "Compartilhamento seguro de relatórios",
+    specifications: [
+      { type: "title", text: "Conectividade" },
+      { type: "item", text: "Conexão estável com a internet" },
+      { type: "title", text: "Armazenamento" },
+      { type: "item", text: "Espaço de armazenamento adequado" },
+      { type: "item", text: "Permissões de backup" },
+      { type: "title", text: "Operação" },
+      { type: "item", text: "Agendamento de tarefas" },
+      { type: "item", text: "Monitoramento ativo" },
     ],
-    specifications: {
-      Capacidade: "Até 100 milhões de registros",
-      Usuários: "Baseado no plano",
-      Armazenamento: "Baseado no plano",
-      Suporte: "Horário comercial",
-      Atualizações: "Bimestrais",
-      Implementação: "Assistida",
-      SLA: "99.9% de uptime",
-    },
     relatedProducts: [1, 4, 6],
   },
   {
@@ -159,25 +143,16 @@ const productsData = [
     longDescription:
       "O Cirrus Mobile é nosso aplicativo dedicado que coloca o poder do Cirrus na palma da sua mão. Disponível para iOS e Android, o aplicativo permite que você acesse as principais funcionalidades do sistema em qualquer lugar, a qualquer momento. Com notificações em tempo real, você nunca perderá atualizações importantes. O modo offline permite continuar trabalhando mesmo sem conexão com a internet, com sincronização automática quando a conexão for restabelecida. A interface intuitiva foi projetada especificamente para dispositivos móveis, garantindo uma experiência de usuário excelente.",
     image: "/placeholder.svg?height=500&width=800",
-    features: [
-      "Disponível para iOS e Android",
-      "Notificações em tempo real para atualizações importantes",
-      "Modo offline com sincronização automática",
-      "Interface otimizada para dispositivos móveis",
-      "Autenticação biométrica (Face ID, Touch ID)",
-      "Acesso rápido às funcionalidades mais utilizadas",
-      "Compartilhamento fácil de arquivos e informações",
-      "Baixo consumo de bateria e dados",
+    specifications: [
+      { type: "title", text: "Compatibilidade" },
+      { type: "item", text: "iOS 12+ ou Android 8+" },
+      { type: "title", text: "Requisitos" },
+      { type: "item", text: "Conexão com a internet" },
+      { type: "item", text: "Espaço livre: mínimo 50MB" },
+      { type: "item", text: "Conta Karoo ativa" },
+      { type: "title", text: "Permissões" },
+      { type: "item", text: "Permissões de notificação" },
     ],
-    specifications: {
-      Compatibilidade: "iOS 12+ e Android 8+",
-      "Tamanho do app": "< 50MB",
-      "Uso de dados": "Otimizado",
-      Suporte: "In-app e email",
-      Atualizações: "Mensais",
-      Requisitos: "Conta Cirrus ativa",
-      Idiomas: "Português, Inglês, Espanhol",
-    },
     relatedProducts: [3, 2, 5],
   },
 ]
@@ -267,26 +242,101 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                   <p className="mb-6">{product.longDescription}</p>
                 </div>
 
-                <h3 id="features-heading" className="text-xl font-bold mt-12 mb-6 text-gray-900">
-                  Recursos principais
-                </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4" aria-labelledby="features-heading">
-                  {product.features.map((feature, index) => (
-                    <div key={index} className="flex items-start">
-                      <Check className="h-5 w-5 text-sky-500 mr-3 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">{feature}</span>
+                {/* API Sections - Only show if product has these properties */}
+                {product.apiOfficial && (
+                  <>
+                    <h3 id="features-heading" className="text-xl font-bold mt-12 mb-6 text-gray-900">
+                      API Oficial
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8" aria-labelledby="features-heading">
+                      {/* Coluna de Prós */}
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4 text-green-700 flex items-center">
+                          <Check className="h-5 w-5 mr-2" />
+                          Prós
+                        </h4>
+                        <div className="space-y-14">
+                          {product.apiOfficial.pros.map((pro, index) => (
+                            <div key={index} className="flex items-start">
+                              <Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
+                              <span className="text-gray-700">{pro}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Coluna de Contras */}
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4 text-red-700 flex items-center">
+                          <X className="h-5 w-5 mr-2" />
+                          Contras
+                        </h4>
+                        <div className="space-y-3">
+                          {product.apiOfficial.cons.map((con, index) => (
+                            <div key={index} className="flex items-start">
+                              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5 flex-shrink-0" />
+                              <span className="text-gray-700">{con}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
                     </div>
-                  ))}
-                </div>
+                  </>
+                )}
+
+                {product.apiWeb && (
+                  <>
+                    <h3 className="text-xl font-bold mt-12 mb-6 text-gray-900">API Web</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Coluna de Prós */}
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4 text-green-700 flex items-center">
+                          <Check className="h-5 w-5 mr-2" />
+                          Prós
+                        </h4>
+                        <div className="space-y-3">
+                          {product.apiWeb.pros.map((pro, index) => (
+                            <div key={`web-${index}`} className="flex items-start">
+                              <Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
+                              <span className="text-gray-700">{pro}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Coluna de Contras */}
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4 text-red-700 flex items-center">
+                          <X className="h-5 w-5 mr-2" />
+                          Contras
+                        </h4>
+                        <div className="space-y-8">
+                          {product.apiWeb.cons.map((con, index) => (
+                            <div key={`web-${index}`} className="flex items-start">
+                              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5 flex-shrink-0" />
+                              <span className="text-gray-700">{con}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md h-fit">
-                <h3 className="text-xl font-bold mb-6 text-gray-900">Especificações</h3>
-                <div className="space-y-4">
-                  {Object.entries(product.specifications).map(([key, value]) => (
-                    <div key={key} className="flex justify-between border-b border-gray-100 pb-2">
-                      <span className="font-medium text-gray-700">{key}</span>
-                      <span className="text-gray-600">{value}</span>
+                <h3 className="text-xl font-bold mb-6 text-gray-900">Recursos Principais</h3>
+                <div className="space-y-3">
+                  {product.specifications.map((spec, index) => (
+                    <div key={index}>
+                      {spec.type === "title" ? (
+                        <h4 className="text-lg font-semibold text-gray-800 mt-4 mb-2 first:mt-0">{spec.text}</h4>
+                      ) : (
+                        <div className="flex items-start gap-3 ml-4">
+                          <div className="w-2 h-2 bg-sky-500 rounded-full mt-2 flex-shrink-0"></div>
+                          <span className="text-gray-700 leading-relaxed">{spec.text}</span>
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
