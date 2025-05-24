@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Check, ArrowRight, X } from 'lucide-react'
+import { ArrowLeft, Check, ArrowRight, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
@@ -13,7 +13,7 @@ const productsData = [
       "O Karoo Chat é uma solução robusta para empresas que buscam melhorar a eficiência e a qualidade do atendimento ao cliente, com funcionalidades que atendem desde pequenas empresas até grandes corporações.",
     longDescription:
       "O Karoo Chat é uma solução completa de atendimento multicanal, desenvolvida especialmente para empresas que desejam centralizar e profissionalizar o relacionamento com seus clientes. Integrando WhatsApp, Facebook, Telegram e outros canais em um só lugar, o Karoo Chat oferece atendimento simultâneo, histórico completo das conversas, relatórios detalhados e muito mais.",
-    image: "/placeholder.svg?height=500&width=800",
+    video: "/videos/Videoclara.mp4",
     apiOfficial: {
       pros: [
         "Estabilidade na conexão",
@@ -222,11 +222,24 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                 </div>
               </div>
               <div>
-                <img
-                  src={product.image || "/placeholder.svg"}
-                  alt={product.name}
-                  className="rounded-lg shadow-lg w-full"
-                />
+                {product.video ? (
+                  <video
+                    src={product.video}
+                    controls
+                    autoPlay
+                    playsInline
+                    loop
+                    className="rounded-lg shadow-lg w-full"
+                  >
+                    <p>Seu navegador não suporta o elemento de vídeo.</p>
+                  </video>
+                ) : (
+                  <img
+                    src={product.image || "/placeholder.svg"}
+                    alt={product.name}
+                    className="rounded-lg shadow-lg w-full"
+                  />
+                )}
               </div>
             </div>
           </div>
