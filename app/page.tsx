@@ -136,20 +136,23 @@ export default function Home() {
                 {
                   id: 1,
                   name: "Karoo Chat",
-                  description: "Mais que um CHAT, um sistema de gestão de atendimento para sua empresa!",
-                  image: "/images/karoochat.gif",
+                  description: "Mais que um Chat, um sistema de gestão de atendimento para sua empresa!",
+                  //image: "/images/karoochat.gif", 
+                  image: "/images/iconteste.png",
                 },
                 {
                   id: 2,
                   name: "Karoo Bot",
                   description: "Crie BOTs para agilizar o atendimento aos seus clientes!",
-                  image: "/images/karoobotdemo.png",
+                  // image: "/images/karoobotdemo.png",
+                  image: "/images/botteste.png",
                 },
                 {
                   id: 3,
                   name: "Karoo KB",
-                  description: "O Cérebro da sua IA, fornecendo respostas precisas e alinhadas tanto para sua equipe interna, quanto para seus clientes externos.",
-                  image: "/images/karookbdemo.png",
+                  description: "O conhecimento da sua empresa sempre disponível e atualizado!",
+                  // image: "/images/karookbdemo.png",
+                  image: "/images/kbteste.png",
                 },
               ].map((product) => (
                 <Link
@@ -182,15 +185,15 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 {
-                  name: "Maria Silva",
-                  company: "Tech Solutions",
+                  name: "Haryon Cruz",
+                  company: "Cruz Solutions",
                   quote:
-                    "Os produtos da Cirrus transformaram completamente nossos processos internos. Recomendo fortemente!",
+                    "Os produtos do Cirrus transformaram completamente nossos processos internos. Recomendo fortemente!",
                 },
                 {
-                  name: "João Oliveira",
-                  company: "Inovação Digital",
-                  quote: "Estamos usando o Cirrus Pro há 2 anos e a diferença na produtividade é impressionante.",
+                  name: "Carlos Damazio",
+                  company: "Digital Inovations",
+                  quote: "Estamos usando o Karoo Chat há 2 anos e a diferença na produtividade é impressionante.",
                 },
               ].map((testimonial, index) => (
                 <div key={index} className="bg-gray-50 p-6 rounded-lg">

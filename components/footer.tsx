@@ -12,23 +12,43 @@ export default function Footer() {
               Fornecendo soluções inovadoras para empresas de todos os tamanhos desde 2010.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125">
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </a>
-            </div>
+            <a
+              href="https://facebook.com/cirrus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"
+            >
+              <Facebook className="h-5 w-5" />
+              <span className="sr-only">Facebook</span>
+            </a>
+            <a
+              href="https://twitter.com/cirrus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"
+            >
+              <Twitter className="h-5 w-5" />
+              <span className="sr-only">Twitter</span>
+            </a>
+            <a
+              href="https://instagram.com/cirrus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"
+            >
+              <Instagram className="h-5 w-5" />
+              <span className="sr-only">Instagram</span>
+            </a>
+            <a
+              href="https://linkedin.com/company/cirrus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"
+            >
+              <Linkedin className="h-5 w-5" />
+              <span className="sr-only">LinkedIn</span>
+            </a>
+          </div>
           </div>
 
           <div>
@@ -148,14 +168,6 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm">&copy; {new Date().getFullYear()} Alterdata Software - Todos os direitos reservados.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="text-sm hover:text-white transition-colors">
-              Política de Privacidade
-            </Link>
-            <Link href="/terms" className="text-sm hover:text-white transition-colors">
-              Termos de Uso
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

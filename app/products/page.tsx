@@ -11,12 +11,12 @@ export default function ProductsPage() {
       name: "Karoo Chat",
       description:
         "Atendimento online com qualidade. Aventure-se pela nossa ferramenta e forneça um atendimento ágil, eficiente.",
-      image: "images/chaticon.png",
+      image: "images/iconteste.png",
       features: [
-        "100% Web",
-        "Dashboard dos atendimentos",
-        "Integrações personalizadas",
-        "Segurança de nível empresarial",
+        "Atendimento centralizado",
+        "Avisos e notificações em tempo real",
+        "Relatórios e dashboards personalizados",
+        "Suporte técnico especializado",
       ],
     },
     {
@@ -24,20 +24,24 @@ export default function ProductsPage() {
       name: "Karoo Bot",
       description:
         "Crie fluxos personalizados, integre o BOT ao WhatsApp e ofereça sempre o mais moderno aos seus clientes!",
-      image: "images/boticon.png",
-      features: ["Funcionalidades essenciais", "Fácil de usar", "Suporte por email", "Atualizações regulares"],
+      image: "images/botteste.png",
+      features: [
+        "Atendimento 24/7", 
+        "Agendamento de Mensagens", 
+        "Lista de transmissão", 
+        "Criação de Fluxos de Conversa Personalizados"],
     },
     {
       id: 3,
       name: "Karoo KB",
       description:
-        "Solução baseada em nuvem para equipes remotas. O Cirrus Cloud permite que suas equipes trabalhem de qualquer lugar com acesso total aos recursos.",
-      image: "/placeholder.svg?height=300&width=500",
+        "Organize seu conteúdo, alimente sua IA e ofereça respostas instantâneas aos seus clientes.",
+      image: "/images/kbteste.png",
       features: [
-        "Acesso em qualquer dispositivo",
-        "Colaboração em tempo real",
-        "Backup automático",
-        "Sincronização offline",
+        "Respostas Automatizadas com IA",
+        "Acesso Simplificado a Informações",
+        "Experiência Personalizada",
+        "Redução no Tempo de Resposta",
       ],
     },
     {
@@ -45,7 +49,7 @@ export default function ProductsPage() {
       name: "Karoo IA",
       description:
         "Solução completa para grandes corporações com necessidades específicas. Inclui implementação personalizada e treinamento da equipe.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/iateste.png",
       features: [
         "Implementação personalizada",
         "Treinamento da equipe",
@@ -58,7 +62,7 @@ export default function ProductsPage() {
       name: "Backup",
       description:
         "Ferramenta de análise de dados avançada que transforma seus dados em insights acionáveis para tomada de decisões.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/backupteste.png",
       features: [
         "Dashboards personalizáveis",
         "Relatórios automatizados",
@@ -71,7 +75,7 @@ export default function ProductsPage() {
       name: "Bunker",
       description:
         "Aplicativo móvel que permite acesso às principais funcionalidades do Cirrus em qualquer lugar, a qualquer momento.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/bunkerteste.png",
       features: ["Disponível para iOS e Android", "Notificações em tempo real", "Modo offline", "Interface intuitiva"],
     },
   ]

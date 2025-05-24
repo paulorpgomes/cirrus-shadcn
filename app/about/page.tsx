@@ -10,28 +10,27 @@ export default function AboutPage() {
     {
       name: "Fernando Pimentel",
       role: "Superintendente",
-      bio: "",
+      bio: "fernando.si",
       image: "/images/fernandosi.png",
     },
     {
       name: "Patricia Sendon",
       role: "Tech Lead",
-      bio: "",
+      bio: "patricia.dsn.cir",
       image: "/images/patriciadsn.png",
     },
     {
       name: "Henrique Dias",
       role: "Tech Lead",
-      bio: "",
+      bio: "dias.dsn.cir",
       image: "/images/diasdsn.png",
     },
     {
       name: "Erick Leão",
       role: "Tech Lead",
-      bio: "",
+      bio: "erick.dsn.cir",
       image: "/images/erickdsn.png",
     },
-    
   ]
 
   return (
@@ -57,28 +56,27 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold mb-6 text-gray-800">Nossa História</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    A Cirrus foi fundada em 2010 com uma missão clara: simplificar a maneira como as empresas gerenciam
-                    seus dados e processos. O que começou como uma pequena startup com apenas 5 funcionários cresceu
-                    para se tornar uma empresa líder no setor, com presença em todo o Brasil e América Latina.
+                    Você já parou pra pensar em como seria mais fácil se empresas e clientes se entendessem de forma
+                    rápida, leve e moderna? F oi com essa ideia na cabeça que nasceu o Cirrus, um time dentro da
+                    Alterdata com uma missão bem clara: criar soluções digitais em nuvem que realmente fazem a diferença
+                    no dia a dia das empresas.
                   </p>
                   <p>
-                    Ao longo dos anos, mantivemos nosso compromisso com a inovação e a excelência, sempre colocando as
-                    necessidades dos clientes em primeiro lugar. Nossa abordagem centrada no cliente nos permitiu
-                    desenvolver soluções que realmente fazem a diferença para empresas de todos os tamanhos.
+                    A gente começou pequeno, mas com um baita sonho: transformar o atendimento digital no Brasil. E foi
+                    assim que criamos o Karoo Chat, uma plataforma de atendimento online que ajuda empresas a se
+                    conectarem com seus clientes de um jeito mais humano e eficiente. Depois veio o Karoo Bot, pra
+                    automatizar tudo aquilo que pode ser feito sem complicação — e deixar o atendimento ainda mais
+                    rápido.
                   </p>
                   <p>
-                    Hoje, a Cirrus atende mais de 1.000 empresas em diversos setores, desde pequenas startups até
-                    grandes corporações. Nosso sucesso é impulsionado pela dedicação de nossa equipe talentosa e pela
-                    confiança que nossos clientes depositam em nós.
+                    Nosso time é formado por pessoas apaixonadas por tecnologia, inovação e boas ideias. A gente curte
+                    trabalhar junto, sem muita burocracia, com liberdade pra criar e melhorar o tempo todo. O Cirrus é
+                    isso: um espaço onde a criatividade e a tecnologia andam lado a lado.
                   </p>
                 </div>
               </div>
               <div className="order-first lg:order-last">
-                <img
-                  src="/images/cirrusgeral.jpg"
-                  alt="Escritório da Cirrus"
-                  className="rounded-lg shadow-lg w-full"
-                />
+                <img src="/images/cirrusgeral.jpg" alt="Escritório da Cirrus" className="rounded-lg shadow-lg w-full" />
               </div>
             </div>
           </div>
@@ -147,7 +145,7 @@ export default function AboutPage() {
                     alt={member.name}
                     className="w-full h-64 object-cover"
                   />
-                  <div className="p-6">
+                  <div className="p-6 text-center">
                     <h3 className="text-xl font-semibold mb-1 text-gray-800">{member.name}</h3>
                     <p className="text-sky-600 mb-3">{member.role}</p>
                     <p className="text-gray-600">{member.bio}</p>
@@ -163,7 +161,7 @@ export default function AboutPage() {
           <div className="container mx-auto max-w-6xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-6 text-gray-800">Carreiras na Cirrus</h2>
+                <h2 className="text-3xl font-bold mb-6 text-gray-800">Carreiras no Cirrus</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
                     Estamos sempre em busca de talentos excepcionais para se juntar à nossa equipe. Na Cirrus,
@@ -185,7 +183,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/LogoCirrus.png"
                   alt="Equipe Cirrus"
                   className="rounded-lg shadow-lg w-full"
                 />

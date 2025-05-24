@@ -10,19 +10,19 @@ const productsData = [
     id: 1,
     name: "Karoo Chat",
     description:
-      "Nossa solução premium para empresas de grande porte. O Cirrus Pro oferece recursos avançados de gerenciamento, análise de dados em tempo real e suporte prioritário.",
+      "O Karoo Chat é uma solução robusta para empresas que buscam melhorar a eficiência e a qualidade do atendimento ao cliente, com funcionalidades que atendem desde pequenas empresas até grandes corporações.",
     longDescription:
-      "O Cirrus Pro é nossa solução mais completa, projetada especificamente para empresas de médio e grande porte que precisam de recursos avançados de gerenciamento e análise. Com o Cirrus Pro, você terá acesso a dashboards personalizáveis, relatórios detalhados e suporte prioritário 24/7. Nossa equipe de especialistas está sempre disponível para ajudar com implementação, treinamento e suporte contínuo.",
+      "O Karoo Chat é uma solução completa de atendimento multicanal, desenvolvida especialmente para empresas que desejam centralizar e profissionalizar o relacionamento com seus clientes. Integrando WhatsApp, Facebook, Telegram e outros canais em um só lugar, o Karoo Chat oferece atendimento simultâneo, histórico completo das conversas, relatórios detalhados e muito mais.",
     image: "/placeholder.svg?height=500&width=800",
     features: [
-      "Análise avançada de dados em tempo real",
-      "Dashboards personalizáveis para diferentes departamentos",
-      "Suporte prioritário 24/7 com tempo de resposta garantido",
-      "Integrações personalizadas com seus sistemas existentes",
-      "Segurança de nível empresarial com criptografia de ponta a ponta",
-      "Backup automático e recuperação de desastres",
-      "Atualizações prioritárias com novos recursos",
-      "Treinamento personalizado para sua equipe",
+      "Atendimento centralizado via WhatsApp, Facebook, Telegram e outros canais",
+      "Histórico completo de conversas com busca rápida",
+      "Relatórios e dashboards personalizados",
+      "Transferência de atendimento entre setores",
+      "Avisos e notificações em tempo real",
+      "Sistema 100% web, sem necessidade de instalação",
+      "Integração com o Karoo Bot",
+      "Filas de atendimento configuráveis por equipe",
     ],
     specifications: {
       Capacidade: "Ilimitada",
@@ -37,7 +37,7 @@ const productsData = [
   },
   {
     id: 2,
-    name: "Cirrus Lite",
+    name: "Karoo Bot",
     description:
       "Perfeito para pequenas empresas e startups. O Cirrus Lite oferece todas as funcionalidades essenciais a um preço acessível.",
     longDescription:
@@ -66,7 +66,7 @@ const productsData = [
   },
   {
     id: 3,
-    name: "Cirrus Cloud",
+    name: "Karoo KB",
     description:
       "Solução baseada em nuvem para equipes remotas. O Cirrus Cloud permite que suas equipes trabalhem de qualquer lugar com acesso total aos recursos.",
     longDescription:
@@ -95,7 +95,7 @@ const productsData = [
   },
   {
     id: 4,
-    name: "Cirrus Enterprise",
+    name: "Karoo IA",
     description:
       "Solução completa para grandes corporações com necessidades específicas. Inclui implementação personalizada e treinamento da equipe.",
     longDescription:
@@ -124,7 +124,7 @@ const productsData = [
   },
   {
     id: 5,
-    name: "Cirrus Analytics",
+    name: "Backup",
     description:
       "Ferramenta de análise de dados avançada que transforma seus dados em insights acionáveis para tomada de decisões.",
     longDescription:
@@ -153,7 +153,7 @@ const productsData = [
   },
   {
     id: 6,
-    name: "Cirrus Mobile",
+    name: "Bunker",
     description:
       "Aplicativo móvel que permite acesso às principais funcionalidades do Cirrus em qualquer lugar, a qualquer momento.",
     longDescription:
