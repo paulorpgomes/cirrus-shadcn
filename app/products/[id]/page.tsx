@@ -1,8 +1,11 @@
+"use client"
+
 import Link from "next/link"
 import { ArrowLeft, Check, ArrowRight, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
+import { useRef, useEffect } from "react"
 
 // Dados simulados dos produtos
 const productsData = [
@@ -160,6 +163,20 @@ const productsData = [
 export default function ProductPage({ params }: { params: { id: string } }) {
   const productId = Number.parseInt(params.id)
   const product = productsData.find((p) => p.id === productId)
+  const videoRef = useRef<HTMLVideoElement>(null)
+
+  // Configurar volume padrão quando o vídeo carregar
+  useEffect(() => {
+    if (videoRef.current) {
+      // Define o volume padrão (0.0 a 1.0)
+      videoRef.current.volume = 0.5 // 50% do volume máximo
+
+      // Ou você pode usar diferentes valores:
+      // videoRef.current.volume = 0.3 // 30% do volume
+      // videoRef.current.volume = 0.7 // 70% do volume
+      // videoRef.current.volume = 1.0 // 100% do volume (máximo)
+    }
+  }, [product])
 
   if (!product) {
     return (
@@ -223,16 +240,20 @@ export default function ProductPage({ params }: { params: { id: string } }) {
               </div>
               <div>
                 {product.video ? (
-                  <video
-                    src={product.video}
-                    controls
-                    autoPlay
-                    playsInline
-                    loop
-                    className="rounded-lg shadow-lg w-85px"
-                  >
-                    <p>Seu navegador não suporta o elemento de vídeo.</p>
-                  </video>
+                  <div className="flex justify-end">
+                    {" "}
+                    {/* Move o vídeo para a direita */}
+                    <video
+                      src={product.video}
+                      controls
+                      autoPlay
+                      playsInline
+                      loop
+                      className="rounded-lg shadow-lg w-full max-w-md" // Ajustei a largura também
+                    >
+                      <p>Seu navegador não suporta o elemento de vídeo.</p>
+                    </video>
+                  </div>
                 ) : (
                   <img
                     src={product.image || "/placeholder.svg"}
