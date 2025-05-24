@@ -229,7 +229,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                     autoPlay
                     playsInline
                     loop
-                    className="rounded-lg shadow-lg w-full"
+                    className="rounded-lg shadow-lg w-85px"
                   >
                     <p>Seu navegador não suporta o elemento de vídeo.</p>
                   </video>
