@@ -167,14 +167,9 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 
   // Configurar volume padrão quando o vídeo carregar
   useEffect(() => {
-    if (videoRef.current) {
+    if (videoRef.current && product?.video) {
       // Define o volume padrão (0.0 a 1.0)
-      videoRef.current.volume = 0.5 // 50% do volume máximo
-
-      // Ou você pode usar diferentes valores:
-      // videoRef.current.volume = 0.3 // 30% do volume
-      // videoRef.current.volume = 0.7 // 70% do volume
-      // videoRef.current.volume = 1.0 // 100% do volume (máximo)
+      videoRef.current.volume = 0.15 // 50% do volume máximo
     }
   }, [product])
 
@@ -244,6 +239,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                     {" "}
                     {/* Move o vídeo para a direita */}
                     <video
+                      ref={videoRef}
                       src={product.video}
                       controls
                       autoPlay
