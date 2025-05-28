@@ -153,12 +153,12 @@ export default function ContactPage() {
                           <SelectValue placeholder="Selecione uma opção" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="cirrus-pro">Cirrus Pro</SelectItem>
-                          <SelectItem value="cirrus-lite">Cirrus Lite</SelectItem>
-                          <SelectItem value="cirrus-cloud">Cirrus Cloud</SelectItem>
-                          <SelectItem value="cirrus-enterprise">Cirrus Enterprise</SelectItem>
-                          <SelectItem value="cirrus-analytics">Cirrus Analytics</SelectItem>
-                          <SelectItem value="cirrus-mobile">Cirrus Mobile</SelectItem>
+                          <SelectItem value="karoo-chat">Karoo Chat</SelectItem>
+                          <SelectItem value="karoo-bot">Karoo Bot</SelectItem>
+                          <SelectItem value="karoo-kb">Karoo KB</SelectItem>
+                          <SelectItem value="karoo-ia">Karoo IA</SelectItem>
+                          <SelectItem value="backup">Backup</SelectItem>
+                          <SelectItem value="bunker">Bunker</SelectItem>
                           <SelectItem value="outro">Outro</SelectItem>
                         </SelectContent>
                       </Select>
@@ -224,40 +224,15 @@ export default function ContactPage() {
 
                 <div className="bg-gray-50 rounded-lg p-6 mb-8">
                   <div className="space-y-6">
-                    <div className="flex items-start">
-                      <MapPin className="h-6 w-6 text-sky-600 mr-4 mt-1" />
-                      <div>
-                        <h3 className="font-semibold text-gray-800 mb-1">Endereço</h3>
-                        <p className="text-gray-600">
-                          Av. Paulista, 1000
-                          <br />
-                          Bela Vista, São Paulo - SP
-                          <br />
-                          CEP: 01310-100
-                        </p>
-                      </div>
-                    </div>
 
                     <div className="flex items-start">
                       <Phone className="h-6 w-6 text-sky-600 mr-4 mt-1" />
                       <div>
                         <h3 className="font-semibold text-gray-800 mb-1">Telefone</h3>
                         <p className="text-gray-600">
-                          +55 (11) 3000-0000
+                          +55 (21) 97919-2800
                           <br />
-                          Segunda a Sexta, 9h às 18h
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start">
-                      <Mail className="h-6 w-6 text-sky-600 mr-4 mt-1" />
-                      <div>
-                        <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                        <p className="text-gray-600">
-                          contato@cirrus.com.br
-                          <br />
-                          suporte@cirrus.com.br
+                          Segunda a Sexta, 8h às 18h
                         </p>
                       </div>
                     </div>
@@ -268,13 +243,10 @@ export default function ContactPage() {
                   <h3 className="text-xl font-semibold mb-4 text-gray-800">Horário de atendimento</h3>
                   <div className="space-y-2 text-gray-600">
                     <p>
-                      <span className="font-medium">Segunda a Sexta:</span> 9h às 18h
+                      <span className="font-medium">Segunda a Sexta:</span> 8h às 18h
                     </p>
                     <p>
-                      <span className="font-medium">Sábado:</span> 9h às 13h (apenas suporte)
-                    </p>
-                    <p>
-                      <span className="font-medium">Domingo e Feriados:</span> Fechado
+                      <span className="font-medium">Sábado, Domingo e Feriados:</span> Fechado
                     </p>
                   </div>
                 </div>

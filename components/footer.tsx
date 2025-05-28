@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
+import { Facebook, Instagram, Linkedin, Music } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
             <a
-              href="https://facebook.com/cirrus"
+              href="https://facebook.com/karoochat"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"
@@ -22,16 +22,16 @@ export default function Footer() {
               <span className="sr-only">Facebook</span>
             </a>
             <a
-              href="https://twitter.com/cirrus"
+              href="https://open.spotify.com/show/3PztqbHEzs96S2Yyo15t5b?si=378f3c9b22504a45"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"
             >
-              <Twitter className="h-5 w-5" />
-              <span className="sr-only">Twitter</span>
+              <Music className="h-5 w-5" />
+              <span className="sr-only">Spotify</span>
             </a>
             <a
-              href="https://instagram.com/cirrus"
+              href="https://instagram.com/karoochat"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"
@@ -40,7 +40,7 @@ export default function Footer() {
               <span className="sr-only">Instagram</span>
             </a>
             <a
-              href="https://linkedin.com/company/cirrus"
+              href="https://www.linkedin.com/company/karoo-chat"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"

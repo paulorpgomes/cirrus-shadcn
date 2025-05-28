@@ -17,6 +17,7 @@ const productsData = [
     longDescription:
       "O Karoo Chat é uma solução completa de atendimento multicanal, desenvolvida especialmente para empresas que desejam centralizar e profissionalizar o relacionamento com seus clientes. Integrando WhatsApp, Facebook, Telegram e outros canais em um só lugar, o Karoo Chat oferece atendimento simultâneo, histórico completo das conversas, relatórios detalhados e muito mais.",
     video: "/videos/Videoclara.mp4",
+    dif: "Diferenças entre API Oficial e API Web",
     apiOfficial: {
       pros: [
         "Estabilidade na conexão",
@@ -64,17 +65,16 @@ const productsData = [
       "Ideal para empresas que buscam agilidade no atendimento. O Karoo Bot oferece automação inteligente, integração com múltiplos canais e uma interface simples, tudo isso com excelente custo-benefício.",
     longDescription:
       "O Karoo Bot é uma plataforma de automação de atendimento desenvolvida para facilitar a comunicação entre empresas e seus clientes. Com foco em agilidade e eficiência, ele permite a criação de chatbots inteligentes sem a necessidade de programação. A interface visual e intuitiva torna a construção de fluxos de conversa rápida e acessível, mesmo para quem nunca trabalhou com bots. O Karoo Bot integra-se facilmente a canais como WhatsApp, sites e sistemas Alterdata, oferecendo uma experiência de atendimento moderna, automatizada e personalizada. Ideal para negócios que desejam melhorar o suporte ao cliente e ganhar escala com simplicidade.",
-    image: "/placeholder.svg?height=500&width=800",
+    // Adicione a linha abaixo para incluir a imagem específica para o conteúdo
+    contentImage: "/images/botintegrations.png", // Substitua pelo caminho real da sua imagem para a seção de detalhes
+    video: "/videos/karoobot.mp4",
+    botintegrations: "Acima temos alguns exemplos de integrações, caso queira consultar possibilidade de integração entre em contato com nosso time!",
+
     specifications: [
-      { type: "title", text: "Requisitos do Sistema" },
-      { type: "item", text: "Conexão estável com a internet" },
-      { type: "item", text: "Navegador atualizado" },
-      { type: "item", text: "Mínimo 2GB de RAM" },
-      { type: "title", text: "Contas e Permissões" },
-      { type: "item", text: "Conta WhatsApp Business" },
-      { type: "item", text: "Permissões de administrador" },
-      { type: "title", text: "Manutenção" },
-      { type: "item", text: "Backup regular recomendado" },
+      { type: "item", text: "Atendimento 24/7" },
+      { type: "item", text: "Automação e Redução de Custos" },
+      { type: "item", text: "Escalabilidade e Eficiência" },
+      { type: "item", text: "Otimização da Experiência do Cliente" },
     ],
     relatedProducts: [3, 6, 1],
   },
@@ -82,19 +82,17 @@ const productsData = [
     id: 3,
     name: "Karoo KB",
     description:
-      "Solução baseada em nuvem para equipes remotas. O Cirrus Cloud permite que suas equipes trabalhem de qualquer lugar com acesso total aos recursos.",
+      "O Karoo KB Funciona como um Repositório central de informações que alimenta uma inteligência artificial (IA), organizando dados para que a IA possa fornecer respostas rápidas e precisas, otimizando o atendimento ao cliente e a gestão interna.",
     longDescription:
-      "O Cirrus Cloud foi projetado para a força de trabalho moderna e distribuída. Nossa solução baseada em nuvem permite que suas equipes acessem todos os recursos de qualquer lugar e em qualquer dispositivo. Com sincronização em tempo real, colaboração integrada e backup automático, o Cirrus Cloud garante que todos estejam sempre trabalhando com os dados mais atualizados. A segurança é nossa prioridade, com autenticação de dois fatores e criptografia avançada protegendo seus dados sensíveis.",
-    image: "/placeholder.svg?height=500&width=800",
+      "A Base de Conhecimento Karoo funciona como o cérebro de uma inteligência artificial, sendo um sistema robusto e dinâmico que centraliza e organiza todo o conhecimento essencial para a operação eficiente de uma empresa. Seu principal objetivo é capacitar a IA a responder a uma vasta gama de perguntas e situações, tanto para clientes externos quanto para equipes internas. Ela atua como um vasto arquivo digital onde são armazenadas informações sobre produtos, serviços, políticas da empresa, procedimentos operacionais, perguntas frequentes (FAQs), e até mesmo dados técnicos complexos. Este conteúdo é cuidadosamente estruturado e categorizado, permitindo que a IA o acesse e interprete rapidamente para gerar respostas relevantes e consistentes.",
+      video: "/videos/karooia.mp4",
+
     specifications: [
-      { type: "title", text: "Conectividade" },
-      { type: "item", text: "Conexão estável com a internet" },
-      { type: "item", text: "Navegador moderno" },
-      { type: "title", text: "Hardware" },
-      { type: "item", text: "Mínimo 4GB de RAM" },
-      { type: "item", text: "Espaço em disco disponível" },
-      { type: "title", text: "Segurança" },
-      { type: "item", text: "Permissões de rede" },
+      { type: "item", text: "Capacitação da IA (Integração e Otimização)" },
+      { type: "item", text: "Edição e Gestão de Conteúdo" },
+      { type: "item", text: "Pesquisa e Descoberta" },
+      { type: "item", text: "Acesso e Permissões" },
+      { type: "item", text: "Colaboração e Automação" },
     ],
     relatedProducts: [6, 1, 2],
   },
@@ -105,7 +103,8 @@ const productsData = [
       "Solução completa para grandes corporações com necessidades específicas. Inclui implementação personalizada e treinamento da equipe.",
     longDescription:
       "O Cirrus Enterprise é nossa solução mais robusta, projetada para grandes corporações com necessidades complexas e específicas. Oferecemos implementação totalmente personalizada, integração com seus sistemas existentes e treinamento abrangente para toda a sua equipe. Com o Cirrus Enterprise, você tem acesso a uma API completa para desenvolver integrações personalizadas e garantimos conformidade com todas as regulamentações relevantes para o seu setor. Nossa equipe dedicada de gerentes de conta trabalha diretamente com você para garantir o sucesso contínuo.",
-    image: "/placeholder.svg?height=500&width=800",
+    //image: "/placeholder.svg?height=500&width=800",
+    video: "/videos/karooia.mp4",
     specifications: [
       { type: "title", text: "Infraestrutura" },
       { type: "item", text: "Infraestrutura dedicada" },
@@ -169,7 +168,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
   useEffect(() => {
     if (videoRef.current && product?.video) {
       // Define o volume padrão (0.0 a 1.0)
-      videoRef.current.volume = 0.15 // 50% do volume máximo
+      videoRef.current.volume = 0.15 // 15% do volume máximo
     }
   }, [product])
 
@@ -245,7 +244,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                       autoPlay
                       playsInline
                       loop
-                      className="rounded-lg shadow-lg w-full max-w-md" // Ajustei a largura também
+                      className="rounded-lg shadow-lg w-full max-w-md"// Ajustei a largura também
                     >
                       <p>Seu navegador não suporta o elemento de vídeo.</p>
                     </video>
@@ -270,6 +269,20 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                 <h2 className="text-2xl font-bold mb-6 text-gray-900">Sobre o {product.name}</h2>
                 <div className="prose max-w-none text-gray-700">
                   <p className="mb-6">{product.longDescription}</p>
+
+                  {/* New image section for content details */}
+                  {product.contentImage && (
+                    <div className="my-8"> {/* Added margin for spacing */}
+                      <img
+                        src={product.contentImage}
+                        alt={`Imagem detalhada do ${product.name}`}
+                        className="rounded-lg w-full max-w-xl mx-auto" // Added max-width and auto margins for centering
+                      />
+                    </div>
+                  )}
+
+                  <h2 className="text-2xl font-bold mb-6 text-gray-900">{product.dif}</h2>
+                  <h2 className="text-1xl font-bold mb-1 text-gray-900">{product.botintegrations}</h2>
                 </div>
 
                 {/* API Sections - Only show if product has these properties */}
@@ -313,8 +326,46 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                     </div>
                   </>
                 )}
-
                 {product.apiWeb && (
+                  <>
+                    <h3 className="text-xl font-bold mt-12 mb-6 text-gray-900">API Web</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Coluna de Prós */}
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4 text-green-700 flex items-center">
+                          <Check className="h-5 w-5 mr-2" />
+                          Prós
+                        </h4>
+                        <div className="space-y-3">
+                          {product.apiWeb.pros.map((pro, index) => (
+                            <div key={`web-${index}`} className="flex items-start">
+                              <Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
+                              <span className="text-gray-700">{pro}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Coluna de Contras */}
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4 text-red-700 flex items-center">
+                          <X className="h-5 w-5 mr-2" />
+                          Contras
+                        </h4>
+                        <div className="space-y-8">
+                          {product.apiWeb.cons.map((con, index) => (
+                            <div key={`web-${index}`} className="flex items-start">
+                              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5 flex-shrink-0" />
+                              <span className="text-gray-700">{con}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </>
+                )}
+
+                                {product.apiWeb && (
                   <>
                     <h3 className="text-xl font-bold mt-12 mb-6 text-gray-900">API Web</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
