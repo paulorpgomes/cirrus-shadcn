@@ -48,35 +48,37 @@ export default function ProductsPage() {
       id: 4,
       name: "Karoo IA",
       description:
-        "Solução completa para grandes corporações com necessidades específicas. Inclui implementação personalizada e treinamento da equipe.",
+        "Automatize interações, otimize processos e forneça respostas inteligentes com rapidez e precisão.",
       image: "/images/iateste.png",
       features: [
-        "Implementação personalizada",
-        "Treinamento da equipe",
-        "API completa",
-        "Conformidade com regulamentações",
+        "Personalização avançada",
+        "Aprendizado contínuo",
+        "",
       ],
     },
     {
       id: 5,
       name: "Backup",
       description:
-        "Ferramenta de análise de dados avançada que transforma seus dados em insights acionáveis para tomada de decisões.",
+        "Proteja seus sistemas com backups automáticos e seguros, garantindo a integridade e disponibilidade dos seus dados.",
       image: "/images/backupteste.png",
       features: [
-        "Dashboards personalizáveis",
-        "Relatórios automatizados",
-        "Previsões baseadas em IA",
-        "Exportação de dados",
+        "Agendamento flexível",
+        "Monitoramento contínuo",
+        "",
       ],
     },
     {
       id: 6,
       name: "Bunker",
       description:
-        "Aplicativo móvel que permite acesso às principais funcionalidades do Cirrus em qualquer lugar, a qualquer momento.",
+        "Backup exclusivo para clientes Nuvem Alterdata, com armazenamento seguro e isolado.",
       image: "/images/bunkerteste.png",
-      features: ["Disponível para iOS e Android", "Notificações em tempo real", "Modo offline", "Interface intuitiva"],
+      features: [
+        "Redução de riscos operacionais", 
+        "Controle e autonomia", 
+        "", 
+      ],
     },
   ]
 
