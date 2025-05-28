@@ -357,45 +357,6 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                     </div>
                   </>
                 )}
-
-                                {product.apiWeb && (
-                  <>
-                    <h3 className="text-xl font-bold mt-12 mb-6 text-gray-900">API Web</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      {/* Coluna de Prós */}
-                      <div>
-                        <h4 className="text-lg font-semibold mb-4 text-green-700 flex items-center">
-                          <Check className="h-5 w-5 mr-2" />
-                          Prós
-                        </h4>
-                        <div className="space-y-3">
-                          {product.apiWeb.pros.map((pro, index) => (
-                            <div key={`web-${index}`} className="flex items-start">
-                              <Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                              <span className="text-gray-700">{pro}</span>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-
-                      {/* Coluna de Contras */}
-                      <div>
-                        <h4 className="text-lg font-semibold mb-4 text-red-700 flex items-center">
-                          <X className="h-5 w-5 mr-2" />
-                          Contras
-                        </h4>
-                        <div className="space-y-8">
-                          {product.apiWeb.cons.map((con, index) => (
-                            <div key={`web-${index}`} className="flex items-start">
-                              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5 flex-shrink-0" />
-                              <span className="text-gray-700">{con}</span>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </>
-                )}
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md h-fit">
