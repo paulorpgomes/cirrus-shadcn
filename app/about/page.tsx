@@ -31,6 +31,200 @@ export default function AboutPage() {
       bio: "erick.dsn.cir",
       image: "/images/erickdsn.png",
     },
+    {
+      name: "Henrique Maciel",
+      role: "Tech Lead",
+      bio: "henrique.dsn.cir",
+      image: "/images/henriquedsn.png",
+    },
+    {
+      name: "Alex Cruz",
+      role: "Técnico de Qualidade",
+      bio: "alex.dsn.cir",
+      image: "/images/alexdsn.png",
+    },
+    {
+      name: "Alexandro Gutierrez",
+      role: "Técnico de Qualidade",
+      bio: "alexandro.dsn.cir",
+      image: "/images/alexandrodsn.png",
+    },
+    {
+      name: "Breno Bragança",
+      role: "Programador",
+      bio: "breno.dsn.cir",
+      image: "/images/brenodsn.png",
+    },
+    {
+      name: "Bruno Silva",
+      role: "Programador",
+      bio: "bruno.dsn.cir",
+      image: "/images/brunodsn.png",
+    },
+    {
+      name: "Charles Correa",
+      role: "Programador",
+      bio: "charles.dsn.cir",
+      image: "/images/charlesdsn.png",
+    },
+    {
+      name: "Daniel Santos",
+      role: "Programador",
+      bio: "daniel.dsn.cir",
+      image: "/images/danieldsn.png",
+    },
+    {
+      name: "David Siqueira",
+      role: "Programador",
+      bio: "david.dsn.cir",
+      image: "/images/daviddsn.png",
+    },
+    {
+      name: "Délio Júnior",
+      role: "Programador",
+      bio: "delio.dsn.cir",
+      image: "/images/deliodsn.png",
+    },
+    {
+      name: "Eduardo Esplinio",
+      role: "Técnico de Qualidade",
+      bio: "edu.dsn.cir",
+      image: "/images/edudsn.png",
+    },
+    {
+      name: "Eduardo Damazio",
+      role: "Técnico de Suporte Cirrus",
+      bio: "edudamazio.sup.cir",
+      image: "/images/edudamaziosup.png",
+    },
+    {
+      name: "Everardo Pereira",
+      role: "Técnico de Qualidade",
+      bio: "everardo.dsn.cir",
+      image: "/images/everardodsn.png",
+    },
+    {
+      name: "Guilherme Gomes",
+      role: "Técnico de Qualidade",
+      bio: "falcao.dsn.cir",
+      image: "/images/falcaodsn.png",
+    },
+    {
+      name: "Gabriel Rodrigues",
+      role: "Técnico de Suporte Cirrus",
+      bio: "gabriel.sup.cir",
+      image: "/images/gabrielsup.png",
+    },
+    {
+      name: "Gustavo Xavier",
+      role: "Técnico de Implantação J.A",
+      bio: "gustavo.sup.cir",
+      image: "/images/gustavosup.png",
+    },
+    {
+      name: "Gustavo Marcelino",
+      role: "Programador",
+      bio: "gustavoc.dsn.cir",
+      image: "/images/gustavocdsn.png",
+    },
+    {
+      name: "Haryon Cruz",
+      role: "Supervisor de Suporte Cirrus",
+      bio: "haryon.sup.cir",
+      image: "/images/haryonsup.png",
+    },
+    {
+      name: "João Sá",
+      role: "Técnico de Implantação",
+      bio: "joao.sup.cir",
+      image: "/images/joaosup.png",
+    },
+    {
+      name: "Kathleen Fonseca",
+      role: "Técnico de Qualidade",
+      bio: "kath.dsn.cir",
+      image: "/images/kathdsn.png",
+    },
+    {
+      name: "Luana Xavier",
+      role: "Técnico de Implantação",
+      bio: "luana.sup.cir",
+      image: "/images/luanasup.png",
+    },
+    {
+      name: "Gabriel Silva",
+      role: "Programador",
+      bio: "maia.dsn.cir",
+      image: "/images/maiadsn.png",
+    },
+    {
+      name: "Marcos Rodrigues",
+      role: "Técnico de Suporte Cirrus",
+      bio: "marcos.sup.cir",
+      image: "/images/marcossup.png",
+    },
+    {
+      name: "Matheus Cardoso",
+      role: "Programador",
+      bio: "mcardoso.dsn.cir",
+      image: "/images/mcardosodsn.png",
+    },
+    {
+      name: "Diego Migon",
+      role: "Técnico de Qualidade",
+      bio: "migon.dsn.cir",
+      image: "/images/migondsn.png",
+    },
+    {
+      name: "Miguel Nolasco",
+      role: "Técnico de Implantação",
+      bio: "miguel.sup.cir",
+      image: "/images/miguelsup.png",
+    },
+    {
+      name: "Millena Pacheco",
+      role: "Técnico de Implantação",
+      bio: "millena.sup.cir",
+      image: "/images/millenasup.png",
+    },
+    {
+      name: "Paulo Ricardo",
+      role: "Técnico de Suporte Cirrus",
+      bio: "paulo.sup.cir",
+      image: "/images/paulosup.png",
+    },
+    {
+      name: "Renan Amaral",
+      role: "Técnico de Qualidade",
+      bio: "renan.dsn.cir",
+      image: "/images/renandsn.png",
+    },
+    {
+      name: "Thainá Ramos",
+      role: "Técnico de Qualidade",
+      bio: "thaina.dsn.cir",
+      image: "/images/thainadsn.png",
+    },
+    {
+      name: "Thiago Castro",
+      role: "Programador",
+      bio: "thiago.dsn.cir",
+      image: "/images/thiagodsn.png",
+    },
+    {
+      name: "Victor Monteiro",
+      role: "Vendedor Karoo",
+      bio: "victor.dsn.cir",
+      image: "/images/victordsn.png",
+    },
+    {
+      name: "Victor Siqueira",
+      role: "Programador",
+      bio: "victorhugo.dsn.cir",
+      image: "/images/victorhugodsn.png",
+    },
+
+
   ]
 
   return (
@@ -134,7 +328,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
               {teamMembers.map((member, index) => (
                 <div
                   key={index}
@@ -145,7 +339,7 @@ export default function AboutPage() {
                     alt={member.name}
                     className="w-full h-64 object-cover"
                   />
-                  <div className="p-6 text-center">
+                  <div className="p-1 text-center">
                     <h3 className="text-xl font-semibold mb-1 text-gray-800">{member.name}</h3>
                     <p className="text-sky-600 mb-3">{member.role}</p>
                     <p className="text-gray-600">{member.bio}</p>
@@ -156,41 +350,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Careers Section */}
-        <section id="careers" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-          <div className="container mx-auto max-w-6xl">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold mb-6 text-gray-800">Carreiras no Cirrus</h2>
-                <div className="space-y-4 text-gray-600">
-                  <p>
-                    Estamos sempre em busca de talentos excepcionais para se juntar à nossa equipe. Na Cirrus,
-                    oferecemos um ambiente de trabalho dinâmico e colaborativo, onde você terá a oportunidade de
-                    trabalhar com tecnologias de ponta e fazer a diferença para nossos clientes.
-                  </p>
-                  <p>
-                    Valorizamos a diversidade, a criatividade e o espírito empreendedor. Se você é apaixonado por
-                    tecnologia e quer fazer parte de uma empresa em crescimento, confira nossas vagas abertas.
-                  </p>
-                </div>
-                <div className="mt-8">
-                  <Button asChild size="lg">
-                    <Link href="https://alterdata.gupy.io/">
-                      Ver vagas abertas <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </div>
-              </div>
-              <div>
-                <img
-                  src="/images/LogoCirrus.png"
-                  alt="Equipe Cirrus"
-                  className="rounded-lg shadow-lg w-full"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+
 
         {/* CTA Section */}
         <section className="bg-sky-600 py-16 px-4 sm:px-6 lg:px-8 text-white">

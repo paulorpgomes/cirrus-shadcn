@@ -218,10 +218,10 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                 <p className="text-lg text-gray-600 mb-6">{product.description}</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild size="lg" className="bg-sky-600 hover:bg-sky-700">
-                    <Link href="/contact">Solicitar demonstração</Link>
+                    <Link href="https://widget.karoo.com.br/c/275?color=23272a&dptos=5675%2C24041%2C27403%2C28299%2C21192%2C367%2C27666%2C20142" target="_blank" rel="noopener noreferrer">Quero Contratar</Link>
                   </Button>
                   <Button asChild size="lg" variant="outline">
-                    <Link href="/contact">Falar com um consultor</Link>
+                    <Link href="https://widget.karoo.com.br/c/136?color=23272a&dptos=159%2C10788%2C10451%2C176%2C21323%2C203%2C6324%2C10102%2C177%2C10450" target="_blank" rel="noopener noreferrer">Falar com um especialista</Link>
                   </Button>
                 </div>
               </div>
@@ -431,7 +431,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
               Entre em contato conosco hoje mesmo e descubra como o {product.name} pode transformar seu negócio.
             </p>
             <Button asChild size="lg" className="bg-white text-sky-600 hover:bg-sky-100">
-              <Link href="/contact">Solicitar demonstração gratuita</Link>
+              <Link href="https://widget.karoo.com.br/c/275?color=23272a&dptos=524%2C2405%2C2407%2C2408%2C26810%2C2404%2C27111%2C2406%2C6626%2C6427%2C519" target="_blank" rel="noopener noreferrer">Solicitar Demonstração Gratuita</Link>
             </Button>
           </div>
         </section>

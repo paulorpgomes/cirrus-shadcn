@@ -59,7 +59,7 @@ export default function Home() {
                   </Button>
                   <Button asChild size="lg" variant="outline" className="border-white text-blue hover:bg-white/10">
                     <Link className="bg-white text-blue-600 hover:bg-sky-100 transition-transform hover:translate-x-"
-                    href="/contact">Fale Conosco</Link>
+                    href="https://widget.karoo.com.br/c/469" target="_blank" rel="noopener noreferrer">Fale Conosco</Link>
                   </Button>
                 </div>
               </div>
@@ -216,7 +216,7 @@ export default function Home() {
               Entre em contato conosco hoje mesmo e descubra como nossos produtos podem ajudar sua empresa a crescer.
             </p>
             <Button asChild size="lg" className="bg-white text-sky-600 hover:bg-sky-100">
-              <Link href="/contact">Fale com um especialista</Link>
+              <Link href="https://widget.karoo.com.br/c/136" target="_blank" rel="noopener noreferrer">Fale com um especialista</Link>
             </Button>
           </div>
         </section>
