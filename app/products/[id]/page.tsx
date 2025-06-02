@@ -152,6 +152,11 @@ const productsData = [
   },
 ]
 
+/*const videoElement = document.createElement("video");
+        videoElement.src = "/videos/Videoclara.mp4", "/videos/karoobot.mp4", "/videos/karooia.mp4";
+        videoElement.preload = "auto";
+        document.body.appendChild(videoElement); */
+
 export default function ProductPage({ params }: { params: { id: string } }) {
   const productId = Number.parseInt(params.id)
   const product = productsData.find((p) => p.id === productId)
@@ -253,6 +258,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
             </div>
           </div>
         </section>
+
 
         {/* Product Details */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">

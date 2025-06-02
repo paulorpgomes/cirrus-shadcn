@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Cirrus</h3>
             <p className="mb-4 text-sm">
-              Fornecendo soluções inovadoras para empresas de todos os tamanhos desde 2010.
+              Fornecendo soluções inovadoras para empresas de todos os tamanhos.
             </p>
             <div className="flex space-x-4">
             <a
