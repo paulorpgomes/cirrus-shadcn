@@ -183,7 +183,7 @@ export default function AboutPage() {
     },
     {
       name: "Millena Pacheco",
-      role: "Técnico de Implantação",
+      role: "Técnico de Implantação J.A",
       bio: "millena.sup.cir",
       image: "/images/millenasup.png",
     },

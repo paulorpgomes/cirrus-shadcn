@@ -59,7 +59,7 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center space-x-4">
             <Button asChild variant="outline">
-              <Link href="/contact">Fale Conosco</Link>
+              <Link href="https://widget.karoo.com.br/c/469" target="_blank" rel="noopener noreferrer">Fale Conosco</Link>
             </Button>
           </div>
 

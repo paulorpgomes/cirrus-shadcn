@@ -92,3 +92,23 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Esconder scrollbar para Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Esconder scrollbar para Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Manter funcionalidade de scroll */
+body {
+  -ms-overflow-style: none;  /* IE e Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}

@@ -110,14 +110,6 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/about#careers"
-                  className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
-                >
-                  Carreiras
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/contact"
                   className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                 >
@@ -132,18 +124,10 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="https://ajuda.alterdata.com.br/karoo"
+                  href="https://ajuda.alterdata.com.br/karoo" target="_blank" rel="noopener noreferrer"
                   className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                 >
                   Central de ajuda
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/support/faq"
-                  className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
-                >
-                  FAQ
                 </Link>
               </li>
               <li>
