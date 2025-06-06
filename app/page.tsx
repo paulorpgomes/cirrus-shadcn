@@ -251,7 +251,7 @@ export default function Home() {
                 <div className="relative group cursor-pointer">
                   <img
                     src="/images/monicathumb.jpg"
-                    alt="Depoimento João Oliveira"
+                    alt="Depoimento Mônica Porto"
                     className="w-full h-64 object-cover"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center group-hover:bg-opacity-50 transition-all duration-300">
@@ -273,13 +273,13 @@ export default function Home() {
                 <div className="p-6">
                   <div className="flex items-center space-x-4">
                     <img
-                      src="/images/neocont.jpg"
+                      src="/images/neocount.jpg"
                       alt="João Oliveira"
                       className="w-12 h-12 rounded-full object-cover"
                     />
                     <div>
                       <h3 className="font-semibold text-gray-800">Mônica Porto</h3>
-                      <p className="text-gray-500 text-sm">NeoCont</p>
+                      <p className="text-gray-500 text-sm">NeoCount</p>
                     </div>
                   </div>
                   <p className="text-gray-600 mt-4 italic">
