@@ -233,7 +233,7 @@ export default function AboutPage() {
 
       <main className="flex-1">
         {/* Header */}
-        <section className="bg-gradient-to-r from-sky-500 to-blue-600 py-16 px-4 sm:px-6 lg:px-8 text-white">
+        <section className="bg-gradient-to-r from-[rgb(48,78,157)] to-[rgb(49,114,158)] py-16 px-4 sm:px-6 lg:px-8 text-white">
           <div className="container mx-auto max-w-6xl">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">Sobre o Cirrus</h1>
             <p className="text-lg text-sky-100 max-w-3xl">
@@ -324,7 +324,7 @@ export default function AboutPage() {
                 Nossa Equipe
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Conheça as pessoas talentosas que fazem a Cirrus acontecer todos os dias.
+                Conheça as pessoas talentosas que fazem o Cirrus acontecer todos os dias.
               </p>
             </div>
 
@@ -353,7 +353,7 @@ export default function AboutPage() {
 
 
         {/* CTA Section */}
-        <section className="bg-sky-600 py-16 px-4 sm:px-6 lg:px-8 text-white">
+        <section className="bg-gradient-to-r from-[rgb(48,78,157)] to-[rgb(49,114,158)]  py-16 px-4 sm:px-6 lg:px-8 text-white">
           <div className="container mx-auto max-w-6xl text-center">
             <h2 className="text-3xl font-bold mb-6">Vamos trabalhar juntos</h2>
             <p className="text-lg mb-8 max-w-3xl mx-auto text-sky-100">

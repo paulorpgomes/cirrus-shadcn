@@ -12,7 +12,7 @@ export default function AboutPage() {
 
       <main className="flex-1">
         {/* Header */}
-        <section className="bg-gradient-to-r from-sky-500 to-blue-600 py-16 px-4 sm:px-6 lg:px-8 text-white">
+        <section className="bg-gradient-to-r from-[rgb(48,78,157)] to-[rgb(49,114,158)] py-16 px-4 sm:px-6 lg:px-8 text-white">
           <div className="container mx-auto max-w-6xl">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">Preços e Produtos</h1>
             <p className="text-lg text-sky-100 max-w-3xl">
@@ -235,7 +235,7 @@ export default function AboutPage() {
         </section>
 
         {/* Observações Importantes */}
-        <section className="py-12 px-4 sm:px-6 lg:px-8 bg-yellow-50 border-t border-yellow-200">
+        <section className="py-12 px-4 sm:px-6 lg:px-8 border-t">
           <div className="container mx-auto max-w-6xl">
             <h3 className="text-2xl font-bold mb-6 text-center text-gray-800">Observações Importantes</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -245,7 +245,7 @@ export default function AboutPage() {
                   Taxa de Adesão
                 </h4>
                 <p className="text-gray-600">
-                  <strong>R$ 467,00</strong> cobrado APENAS uma única vez por venda, independentemente de quantos
+                  <strong>R$ 467,00</strong> cobrado APENAS UMA única vez por venda, independentemente de quantos
                   produtos Karoo forem adquiridos simultaneamente na mesma transação.
                 </p>
               </div>
@@ -268,7 +268,7 @@ export default function AboutPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-sky-600 py-16 px-4 sm:px-6 lg:px-8 text-white">
+        <section className="bg-gradient-to-r from-[rgb(48,78,157)] to-[rgb(49,114,158)]  py-16 px-4 sm:px-6 lg:px-8 text-white">
           <div className="container mx-auto max-w-6xl text-center">
             <h2 className="text-3xl font-bold mb-6">Pronto para transformar seu atendimento?</h2>
             <p className="text-lg mb-8 max-w-3xl mx-auto text-sky-100">

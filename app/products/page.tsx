@@ -89,7 +89,7 @@ export default function ProductsPage() {
       <main className="flex-1">
         {/* Header */}
         <section
-          className="bg-gradient-to-r from-sky-500 to-blue-600 py-16 px-4 sm:px-6 lg:px-8 text-white"
+          className="bg-gradient-to-r from-[rgb(48,78,157)] to-[rgb(49,114,158)] py-16 px-4 sm:px-6 lg:px-8 text-white"
           aria-labelledby="products-heading"
         >
           <div className="container mx-auto max-w-6xl">

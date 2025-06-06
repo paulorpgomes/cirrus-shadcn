@@ -16,9 +16,9 @@ export default function ContactPage() {
 
   const faqs = [
     {
-      question: "Quanto tempo leva para implementar os produtos Cirrus?",
+      question: "Quanto tempo dura a implantação?",
       answer:
-        "O tempo de implementação varia de acordo com o produto e as necessidades específicas da sua empresa. O Cirrus Lite pode ser implementado em poucos dias, enquanto soluções mais complexas como o Cirrus Enterprise podem levar algumas semanas. Nossa equipe trabalha para garantir uma transição suave e eficiente.",
+        "O tempo estimado para a implantação é de aproximadamente 3 horas, podendo variar conforme as condições específicas do processo. Em alguns casos, pode ser concluída mais rapidamente, enquanto em outros pode demandar um período maior. Se precisar de mais detalhes sobre o processo, estamos à disposição!",
     },
     {
       question: "Vocês oferecem treinamento para nossa equipe?",
@@ -26,7 +26,7 @@ export default function ContactPage() {
         "Sim, oferecemos treinamento completo para todos os nossos produtos. Dependendo do plano escolhido, o treinamento pode ser online ou presencial. Também disponibilizamos documentação detalhada e vídeos tutoriais.",
     },
     {
-      question: "É possível integrar os produtos Cirrus com outros sistemas?",
+      question: "É possível integrar os produtos com outros sistemas?",
       answer:
         "Absolutamente. Nossos produtos foram projetados para se integrar facilmente com uma ampla variedade de sistemas e plataformas. Oferecemos APIs robustas e conectores pré-construídos para as integrações mais comuns.",
     },
@@ -57,7 +57,7 @@ export default function ContactPage() {
 
       <main className="flex-1">
         {/* Header */}
-        <section className="bg-gradient-to-r from-sky-500 to-blue-600 py-16 px-4 sm:px-6 lg:px-8 text-white">
+        <section className="bg-gradient-to-r from-[rgb(48,78,157)] to-[rgb(49,114,158)] py-16 px-4 sm:px-6 lg:px-8 text-white">
           <div className="container mx-auto max-w-6xl">
             <h1 className="text-4xl font-bold mb-4">Entre em Contato</h1>
             <p className="text-lg text-sky-100 max-w-3xl">
@@ -84,7 +84,7 @@ export default function ContactPage() {
                       <p className="text-sm text-gray-500">Atendimento rápido</p>
                     </div>
                     <Button asChild className="bg-green-500 hover:bg-green-600 text-white mt-2">
-                      <a href="https://wa.me/5521979192800" className="flex items-center">
+                      <a href="https://wa.me/5521979192800" target="_blank" rel="noopener noreferrer" className="flex items-center">
                         <MessageCircle className="mr-2 h-4 w-4" />
                         Iniciar conversa
                       </a>
@@ -263,7 +263,7 @@ export default function ContactPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-sky-600 py-16 px-4 sm:px-6 lg:px-8 text-white">
+        <section className="bg-gradient-to-r from-[rgb(48,78,157)] to-[rgb(49,114,158)] py-16 px-4 sm:px-6 lg:px-8 text-white">
           <div className="container mx-auto max-w-6xl text-center">
             <h2 className="text-3xl font-bold mb-6">Pronto para começar?</h2>
             <p className="text-lg mb-8 max-w-3xl mx-auto text-sky-100">
@@ -276,10 +276,7 @@ export default function ContactPage() {
                 size="lg"
                 className="bg-white text-sky-600 hover:bg-sky-100 transition-all duration-300 hover:-translate-y-1"
               >
-                <a href="tel:+5511300000000" className="flex items-center">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Ligar Agora
-                </a>
+
               </Button>
               <Button
                 asChild
