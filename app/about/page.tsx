@@ -44,6 +44,12 @@ export default function AboutPage() {
       image: "/images/alexdsn.png",
     },
     {
+      name: "Arthur Pereira",
+      role: "Técnico de Implantação",
+      bio: "arthur.sup.cir",
+      image: "/images/arthursup.png",
+    },
+    {
       name: "Alexandro Gutierrez",
       role: "Técnico de Qualidade",
       bio: "alexandro.dsn.cir",
@@ -140,6 +146,12 @@ export default function AboutPage() {
       image: "/images/joaosup.png",
     },
     {
+      name: "Julia Souza",
+      role: "Técnico de Implantação J.A",
+      bio: "julia.sup.cir",
+      image: "/images/juliasup.png",
+    },
+    {
       name: "Kathleen Fonseca",
       role: "Técnico de Qualidade",
       bio: "kath.dsn.cir",
@@ -162,6 +174,12 @@ export default function AboutPage() {
       role: "Técnico de Suporte Cirrus",
       bio: "marcos.sup.cir",
       image: "/images/marcossup.png",
+    },
+    {
+      name: "Maria Mafra",
+      role: "Técnico de Implantação J.A",
+      bio: "duda.sup.cir",
+      image: "/images/dudasup.png",
     },
     {
       name: "Matheus Cardoso",
