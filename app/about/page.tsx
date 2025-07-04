@@ -213,7 +213,7 @@ export default function AboutPage() {
     },
     {
       name: "Renan Amaral",
-      role: "Técnico de Qualidade",
+      role: "Líder Técnico de Qualidade",
       bio: "renan.dsn.cir",
       image: "/images/renandsn.png",
     },
