@@ -176,12 +176,6 @@ export default function AboutPage() {
       image: "/images/marcossup.png",
     },
     {
-      name: "Maria Mafra",
-      role: "Técnico de Implantação J.A",
-      bio: "duda.sup.cir",
-      image: "/images/dudasup.png",
-    },
-    {
       name: "Matheus Cardoso",
       role: "Programador",
       bio: "mcardoso.dsn.cir",
