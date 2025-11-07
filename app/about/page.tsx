@@ -38,18 +38,6 @@ export default function AboutPage() {
       image: "/images/henriquedsn.png",
     },
     {
-      name: "Alex Cruz",
-      role: "Técnico de Qualidade",
-      bio: "alex.dsn.cir",
-      image: "/images/alexdsn.png",
-    },
-    {
-      name: "Arthur Pereira",
-      role: "Técnico de Implantação",
-      bio: "arthur.sup.cir",
-      image: "/images/arthursup.png",
-    },
-    {
       name: "Alexandro Gutierrez",
       role: "Técnico de Qualidade",
       bio: "alexandro.dsn.cir",
@@ -170,12 +158,6 @@ export default function AboutPage() {
       image: "/images/maiadsn.png",
     },
     {
-      name: "Marcos Rodrigues",
-      role: "Técnico de Suporte Cirrus",
-      bio: "marcos.sup.cir",
-      image: "/images/marcossup.png",
-    },
-    {
       name: "Matheus Cardoso",
       role: "Programador",
       bio: "mcardoso.dsn.cir",
@@ -225,7 +207,7 @@ export default function AboutPage() {
     },
     {
       name: "Victor Monteiro",
-      role: "Vendedor Karoo",
+      role: "Técnico de Qualidade",
       bio: "victor.dsn.cir",
       image: "/images/victordsn.png",
     },
